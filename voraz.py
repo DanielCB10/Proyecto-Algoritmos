@@ -1,5 +1,5 @@
 def min_monedas_voraz(denominaciones, D):
-    denominaciones.sort(reverse=True)  # Asegurar que estén en orden decreciente
+    denominaciones.sort(reverse=True)  
     num_monedas = 0
     for d in denominaciones:
         while D >= d:
@@ -7,8 +7,11 @@ def min_monedas_voraz(denominaciones, D):
             num_monedas += 1
     return num_monedas
 
-# Ejemplo de uso
-denominaciones = [25, 10, 5, 1]
-D = 63
-print("Número mínimo de monedas (Voraz):", min_monedas_voraz(denominaciones, D))
+
+
+
+
+    
+
+
 

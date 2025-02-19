@@ -8,6 +8,3 @@ def min_monedas_dinamica(denominaciones, D):
     return dp[D]
 
 # Ejemplo de uso
-denominaciones = [25, 10, 5, 1]
-D = 63
-print("Número mínimo de monedas (Programación Dinámica):", min_monedas_dinamica(denominaciones, D))
