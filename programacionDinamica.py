@@ -7,4 +7,3 @@ def min_monedas_dinamica(denominaciones, D):
                 dp[i] = min(dp[i], dp[i - d] + 1)
     return dp[D]
 
-# Ejemplo de uso
