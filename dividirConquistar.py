@@ -9,6 +9,3 @@ def min_monedas_divide_conquistar(denominaciones, D):
                 min_monedas = subproblema + 1
     return min_monedas
 
-denominaciones = [25, 10, 5, 1]
-D = 63
-print("Número mínimo de monedas (Divide y Conquistar):", min_monedas_divide_conquistar(denominaciones, D))

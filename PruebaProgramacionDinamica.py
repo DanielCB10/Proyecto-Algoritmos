@@ -6,17 +6,26 @@ DPequeño = 1234
 
 
 denominacionesMediano = [1] 
-for i in range(2, 10000, 2):  
+for i in range(2, 200, 2):  
     denominacionesMediano.append(i)
-DMediano = 10**7
-
-
+DMediano = 10**3
 
 denominacionesGrande = [1] 
-for i in range(2, 1000000, 2):  
+for i in range(2, 2000, 2):  
     denominacionesGrande.append(i)
-DGrande = 10**14
+DGrande = 10**4
+
+
+denominacionesExtraGrande = [1] 
+for i in range(2, 20000, 2):  
+    denominacionesExtraGrande.append(i)
+DExtraGrande = 10**8
 
 print(min_monedas_dinamica(denominacionesPequeño, DPequeño))
 print(min_monedas_dinamica(denominacionesMediano, DMediano))
 print(min_monedas_dinamica(denominacionesGrande, DGrande))
+print(min_monedas_dinamica(denominacionesExtraGrande, DExtraGrande))
+
+
+
+
