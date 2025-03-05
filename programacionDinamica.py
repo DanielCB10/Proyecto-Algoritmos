@@ -7,7 +7,7 @@ def min_monedas_dinamica(denominaciones, D):
             contador +=1
             if d <= i:
                 dp[i] = min(dp[i], dp[i - d] + 1)
-    return dp[D], contador
+    return "Numero de monedas: ",dp[D], "Numero de Operaciones:",contador
 
 
 
